@@ -4,11 +4,32 @@ body {
     font-family: MedievalSharp, sans-serif;
 }
 
+header {
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 0;
+}
+header p {
+    margin-top: 5px;
+}
+
 #image {
     display: block;
     max-width: 100%;
-    height: auto;
+    height: 600px;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 45px;
+}
+
+#tribute-info {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    /* text-align: center; */
 }

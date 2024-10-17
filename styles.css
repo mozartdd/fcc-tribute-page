@@ -13,6 +13,8 @@ header h1 {
     margin-bottom: 0;
     color: #ffffff;
     margin-top: 0;
+    font-size: 40px;
+    padding: 35px 0 0 0;
 }
 header p {
     margin-top: 5px;
@@ -40,15 +42,19 @@ header p {
 
 #img-caption {
     color: #ffffff;
+    font-size: 20px;
+    padding: 0  0 15px 0;
 }
 
 #tribute-info {
-    width: 700px;
+    width: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(255, 255, 255);
-    border-radius: 10px 10px 0 0;
+    border-radius: 45px 45px 0 0;
+    padding: 1em 25px;
+    box-sizing: border-box;
     
 }
 ul {
@@ -84,5 +90,15 @@ fieldset {
 footer {
     text-align: center;
     padding: 15px 0;
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+#tribute-link {
+    color: black;    
+    font-weight: bold;
+}
+
+#tribute-link:hover {
+    color: gray;
 }
